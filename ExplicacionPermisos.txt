@@ -1,0 +1,19 @@
+1. Usuario: Propietario del archivo, se representa con la letra U.
+2. Grupo: Grupo propietario del archivo, se representa con la letra G.
+3. Otros: Se representa con las letra O, aqui se agrupan al resto de ususarios o 
+grupos
+
+PERMISOS
+1. Lectura (r): en archivos puede listar, copiar o ver.
+2. Escritura (w): significa que se puede modificar o borrar el contenido o permisos
+3. Ejecucion (x): significa que se puede ejecutar el contenido
+
+ls -l: lista el contenido de un directorio, muestra los permisos de cada uno de
+los archivos o directorios, se presenta de la siguiente manera.
+
+-rwx
+usuario
+-rw
+grupo
+-r
+otros
